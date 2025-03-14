@@ -24,15 +24,20 @@ git clone https://github.com/yourusername/garbage-classification.git
 cd garbage-classification
 
 2. Install dependencies:
-```pip install -r requirements.txt```
+ ```bash
+pip install -r requirements.txt
+
 3. Run the script:
-```python garbage_classification.py```
+ ```bash
+python garbage_classification.py
+
 4. Select an operation mode when prompted:
 - **Option 1**: Run baseline models (default parameters)
 - **Option 2**: Run optimized SVM model
 - **Option 3**: Run optimized Random Forest model
 - **Option 4**: Run optimized KNN model
 - **Option 5**: Test previously trained models on complex dataset
+
 5. Provide paths to your datasets when prompted:
 - **Main dataset**: Should contain 5 subdirectories named 'battery', 'clothes', 'glass', 'paper', 'shoes'
 - **Complex dataset** (optional): Contains challenging real-world images for model testing

@@ -19,8 +19,10 @@ See [requirements.txt](requirements.txt) for a complete list of dependencies.
 ## Usage
 
 1. Clone this repository:
-```git clone https://github.com/yourusername/garbage-classification.git
-cd garbage-classification```
+ ```bash
+git clone https://github.com/yourusername/garbage-classification.git
+cd garbage-classification
+
 2. Install dependencies:
 ```pip install -r requirements.txt```
 3. Run the script:

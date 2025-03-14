@@ -16,28 +16,34 @@ This repository contains a comprehensive traditional machine learning solution f
 
 See [requirements.txt](requirements.txt) for a complete list of dependencies.
 
+```
 ## Usage
 
 1. Clone this repository:
- ```bash
+```bash
 git clone https://github.com/yourusername/garbage-classification.git
 cd garbage-classification
+```
 
 2. Install dependencies:
- ```bash
+```bash
 pip install -r requirements.txt
+```
 
 3. Run the script:
- ```bash
+```bash
 python garbage_classification.py
+```
 
 4. Select an operation mode when prompted:
-- **Option 1**: Run baseline models (default parameters)
-- **Option 2**: Run optimized SVM model
-- **Option 3**: Run optimized Random Forest model
-- **Option 4**: Run optimized KNN model
-- **Option 5**: Test previously trained models on complex dataset
+   - **Option 1**: Run baseline models (default parameters)
+   - **Option 2**: Run optimized SVM model
+   - **Option 3**: Run optimized Random Forest model
+   - **Option 4**: Run optimized KNN model
+   - **Option 5**: Test previously trained models on complex dataset
 
 5. Provide paths to your datasets when prompted:
-- **Main dataset**: Should contain 5 subdirectories named 'battery', 'clothes', 'glass', 'paper', 'shoes'
-- **Complex dataset** (optional): Contains challenging real-world images for model testing
+   - **Main dataset**: Should contain 5 subdirectories named 'battery', 'clothes', 'glass', 'paper', 'shoes'
+   - **Complex dataset** (optional): Contains challenging real-world images for model testing
+```
+

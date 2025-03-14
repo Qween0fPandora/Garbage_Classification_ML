@@ -16,7 +16,6 @@ This repository contains a comprehensive traditional machine learning solution f
 
 See [requirements.txt](requirements.txt) for a complete list of dependencies.
 
-```
 ## Usage
 
 1. Clone this repository:
@@ -45,5 +44,4 @@ python garbage_classification.py
 5. Provide paths to your datasets when prompted:
    - **Main dataset**: Should contain 5 subdirectories named 'battery', 'clothes', 'glass', 'paper', 'shoes'
    - **Complex dataset** (optional): Contains challenging real-world images for model testing
-```
 
